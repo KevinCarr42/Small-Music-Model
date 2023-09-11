@@ -6,8 +6,8 @@ from torch.nn import functional as F
 vocab_size = 128
 batch_size = 128
 block_size = 16
-eval_interval = 50
-learning_rate = 1e-3
+eval_interval = 100
+learning_rate = 1e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
 n_embd = 128
