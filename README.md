@@ -62,6 +62,11 @@ Predicted chord progressions were first cleaned as in step 2 to eliminate repeti
 
 Common chord progressions were compared between each of the datasets. Unsurprisingly, the most common chord progressions from the trained models were similar between the models, with the most common progressions being the extremely common [I V vi IV  /  vi IV I V progression](https://en.wikipedia.org/wiki/I–V–vi–IV_progression). Interestingly, the overtrained model generated the I V vi IV progressions more often than the base dataset, whereas the undertrained model generated them significantly less often.
 
+<p align=center>
+<img src="./data/popular_chord_progressions.png"/></br>
+<i>Common Chord Progressions Comparison - Training Data Vs Transformer Models</i>
+</p>
+
 #### Uncommon Chord Progressions
 
 By comparing all datasets, a subset of chord progressions which do not appear in the training data was generated. Not surprisingly, these 'uncommon' chord progressions are dominated by the undertrained generative transformer model.
